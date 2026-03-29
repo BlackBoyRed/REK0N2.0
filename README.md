@@ -4,13 +4,13 @@ Updated version of REKON, uses python and varioud tools such as sublist3r, gobus
 
 ------------------------------------------------------------------------
 
-## 🚀 Getting Started
+##  Getting Started
 
 Follow these steps to set up and run the project locally.
 
 ------------------------------------------------------------------------
 
-## 📦 1. Clone the Repository
+## 1. Clone the Repository
 
 ``` bash
 git clone https://github.com/blackboyred/REK0N2.0.git
@@ -19,7 +19,7 @@ cd REK0N2.0
 
 ------------------------------------------------------------------------
 
-## 🔐 2. Configure Environment Variables
+## 2. Configure Environment Variables
 
 ``` bash
 cp .env.example .env
@@ -34,18 +34,18 @@ GITHUB_TOKEN=your_github_token
 
 ------------------------------------------------------------------------
 
-## 🐍 3. Set Up Virtual Environment (Recommended)
+## 3. Set Up Virtual Environment (Recommended)
 
 ``` bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-> ⚠️ For Kali/Linux users using `zsh`, the above command works fine.
+>  For Kali/Linux users using `zsh`, the above command works fine.
 
 ------------------------------------------------------------------------
 
-## 📥 4. Install Python Dependencies
+##  4. Install Python Dependencies
 
 ``` bash
 pip install --upgrade pip
@@ -54,9 +54,9 @@ pip install -r requirements.txt
 
 ------------------------------------------------------------------------
 
-## 🛠️ 5. Install External Tools
+## 5. Install External Tools
 
-### 🐧 Debian / Kali / Ubuntu
+### Debian / Kali / Ubuntu
 
 ``` bash
 sudo apt update
@@ -69,7 +69,7 @@ sudo apt install -y nmap gobuster whatweb
 pip install sublist3r
 ```
 
-### 🍎 macOS (Homebrew)
+### macOS (Homebrew)
 
 ``` bash
 brew install nmap gobuster whatweb
@@ -77,21 +77,21 @@ brew install nmap gobuster whatweb
 
 ------------------------------------------------------------------------
 
-## ▶️ 6. Run the Tool
+##  6. Run the Tool
 
-### 🔹 Normal Mode
+###  Normal Mode
 
 ``` bash
 python main.py -d example.com
 ```
 
-### 🔹 Stealth Mode (Passive Recon Only)
+### Stealth Mode (Passive Recon Only)
 
 ``` bash
 python main.py -d example.com --mode stealth
 ```
 
-### 🔹 Aggressive Mode (Active Scanning + Save Output)
+### Aggressive Mode (Active Scanning + Save Output)
 
 ``` bash
 python main.py -d example.com --mode aggressive --save
@@ -99,7 +99,7 @@ python main.py -d example.com --mode aggressive --save
 
 ------------------------------------------------------------------------
 
-## 📁 Output
+##  Output
 
 -   Results can be saved in **JSON format** using the `--save` flag\
 -   Useful for:
@@ -109,7 +109,7 @@ python main.py -d example.com --mode aggressive --save
 
 ------------------------------------------------------------------------
 
-## ⚠️ Notes
+## Notes
 
 -   Ensure all external tools are installed and available in your system
     `$PATH`
@@ -118,7 +118,7 @@ python main.py -d example.com --mode aggressive --save
 
 ------------------------------------------------------------------------
 
-## 📌 Features
+##  Features
 
 -   Subdomain Enumeration\
 -   Port Scanning\
@@ -129,19 +129,19 @@ python main.py -d example.com --mode aggressive --save
 
 ------------------------------------------------------------------------
 
-## 📜 License
+##  License
 
 MIT License
 
 ------------------------------------------------------------------------
 
-## ⚡ Disclaimer
+## Disclaimer
 
 This tool is intended for **educational and ethical use only**.\
 Use it only on systems you own or have permission to test.
 
 ------------------------------------------------------------------------
 
-## ⭐ Support
+##  Support
 
 If you found this project useful, consider giving it a ⭐ on GitHub!
