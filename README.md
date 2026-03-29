@@ -1,8 +1,6 @@
-# 🔍 Sec Recon AI
+# REKON 2.0
 
-An AI-powered reconnaissance tool for automated target enumeration and
-analysis. Supports multiple scanning modes from passive intelligence
-gathering to aggressive active scanning.
+Updated version of REKON, uses python and varioud tools such as sublist3r, gobuster, github, shodan, crt.sh etc. to enumerate a target and gives the output in json format
 
 ------------------------------------------------------------------------
 
@@ -15,8 +13,8 @@ Follow these steps to set up and run the project locally.
 ## 📦 1. Clone the Repository
 
 ``` bash
-git clone https://github.com/your-username/sec-recon-ai.git
-cd sec-recon-ai
+git clone https://github.com/blackboyred/REK0N2.0.git
+cd REK0N2.0
 ```
 
 ------------------------------------------------------------------------
